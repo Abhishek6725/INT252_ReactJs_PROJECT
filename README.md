@@ -22,22 +22,21 @@ Installation
 Clone the repository
 
 bash
-Copy code
-git clone https://github.com/your-username/react-social-media-website.git
+
 cd react-social-media-website
 Install dependencies
 
 Run the following command to install the required packages:
 
 bash
-Copy code
+
 npm install
 Set up environment variables
 
 Create a .env file in the root directory and add the following variables:
 
 env
-Copy code
+
 REACT_APP_API_URL=http://localhost:5000/api
 REACT_APP_WEBSOCKET_URL=ws://localhost:5000
 REACT_APP_GOOGLE_CLIENT_ID=your_google_client_id
@@ -47,7 +46,7 @@ Running the Project
 Start the development server
 
 bash
-Copy code
+
 npm start
 The app will run on http://localhost:3000.
 
@@ -57,7 +56,7 @@ If this project requires a backend service, ensure you’ve set it up and it's r
 
 Project Structure
 plaintext
-Copy code
+
 src/
 ├── components/       # Reusable components
 ├── pages/            # Page components (e.g., Home, Profile)
